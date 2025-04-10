@@ -50,7 +50,7 @@ macOS/Linux:
 ```bash
 source env/bin/activate
 ```
-After activation, your terminal prompt will change to indicate that the virtual environment is active.
+   After activation, your terminal prompt will change to indicate that the virtual environment is active.
 
 ### 3. Install Dependencies
 With the virtual environment activated, install the required dependencies by running:
@@ -63,11 +63,7 @@ Now that the dependencies are installed, you can run the application. Ensure you
 ```bash
 python your_script_name.py
 ```
-Replace your_script_name.py with the actual filename of the script you are running.
-
-## License
-## This project is licensed under the MIT License - see the LICENSE file for details.
----
+   Replace your_script_name.py with the actual filename of the script you are running.
 
 ### Key Changes:
 - **Virtual Environment (`venv`) Setup**: 
