@@ -37,48 +37,36 @@ First, navigate to the project directory in your terminal, then run the followin
 
 ```bash
 python -m venv env
+```
 This will create a directory called env in your project folder, where the virtual environment will be stored.
-
-2. Activate the Virtual Environment
+### 2. Activate the Virtual Environment
 To activate the virtual environment, run the following command depending on your operating system:
 
 Windows:
-
-bash
-Copy
-Edit
+```bash
 .\env\Scripts\activate
+```
 macOS/Linux:
-
-bash
-Copy
-Edit
+```bash
 source env/bin/activate
+```
 After activation, your terminal prompt will change to indicate that the virtual environment is active.
 
-3. Install Dependencies
+### 3. Install Dependencies
 With the virtual environment activated, install the required dependencies by running:
-
-bash
-Copy
-Edit
+```bash
 pip install scapy psutil paramiko networkx matplotlib pillow
-4. Run the Application
+```
+### 4. Run the Application
 Now that the dependencies are installed, you can run the application. Ensure your virtual environment is activated, then execute the script:
 
-bash
-Copy
-Edit
+```bash
 python your_script_name.py
+```
 Replace your_script_name.py with the actual filename of the script you are running.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-yaml
-Copy
-Edit
-
+## License
+## This project is licensed under the MIT License - see the LICENSE file for details.
 ---
 
 ### Key Changes:
